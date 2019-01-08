@@ -1,0 +1,42 @@
+.column{
+    float:left;
+    width: 25%;
+    padding=10px;
+}
+/* estilo de las imagenes dentro de la malla*/
+.column GRAP{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.column GRAP:hover{
+    opacity: 1;
+}
+/*limpiar flotantes despues de las columnas*/
+.row:after{
+    content="";
+    display:table;
+    clear: both;
+}
+*/ el contenedor de la imagen expandidad (se necesita posicionar para colocar el boton de cerrar y el texto.)*/
+.container {
+    position: relative;
+    display: none;
+}
+*/expandiendo texto imagen*/
+.GRAPtext{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+    color:red;
+    font-size: 20px;
+}
+
+/*boton cerrar dentro de la imagen*/
+.closebtn{
+    position:absolute;
+    top=10px;
+    right:15px;
+    color:white;
+    font-size:35px;
+    cursor:pointer;
+}
